@@ -4,11 +4,11 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 import { images } from "../constants";
 
 const navItemsInfo = [
-    { name: "Home", type: "link" },
-    { name: "Articles", type: "link" },
-    { name: "Pages", type: "dropdown", items: ["About us", "Contact us"] },
-    { name: "Pricing", type: "link" },
-    { name: "Faq", type: "link" },
+  { name: "Home", type: "link" },
+  { name: "Articles", type: "link" },
+  { name: "Pages", type: "dropdown", items: ["About us", "Contact us"] },
+  { name: "Pricing", type: "link" },
+  { name: "Faq", type: "link" },
 ];
 
 const NavItem = ({ item }) => {
